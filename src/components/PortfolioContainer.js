@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
-import Blog from './pages/Blog';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
 
@@ -17,8 +17,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <Contact />;
   };
