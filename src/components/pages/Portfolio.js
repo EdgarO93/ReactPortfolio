@@ -37,8 +37,8 @@ export default function Portfolio() {
           <Project
               imgPath={swept}
               title="Swept Project"
-              deploy="https://customer-service-dashboard.herokuapp.com/"
-              link="https://github.com/justinkemp10/customer_service_portal"
+              deploy="https://elliottdombrowski.github.io/NU-Project-1/"
+              link="https://github.com/elliottdombrowski/NU-Project-1/"
             />
           </Col>
 
@@ -48,8 +48,8 @@ export default function Portfolio() {
           <Project
               imgPath={workout}
               title="Workout Tracker"
-              deploy="https://customer-service-dashboard.herokuapp.com/"
-              link="https://github.com/justinkemp10/customer_service_portal"
+              deploy="https://tracker-fitness-workouts.herokuapp.com/"
+              link="https://github.com/EdgarO93/WorkoutTracker"
             />
           </Col>
 
@@ -57,8 +57,8 @@ export default function Portfolio() {
           <Project
               imgPath={note}
               title="Note Taker"
-              deploy="https://customer-service-dashboard.herokuapp.com/"
-              link="https://github.com/justinkemp10/customer_service_portal"
+              deploy="https://edgars-note-taker.herokuapp.com/"
+              link="https://github.com/EdgarO93/NoteTaker"
             />
           </Col>
 
@@ -68,8 +68,8 @@ export default function Portfolio() {
           <Project
               imgPath={budget}
               title="Budget Tracker"
-              deploy="https://customer-service-dashboard.herokuapp.com/"
-              link="https://github.com/justinkemp10/customer_service_portal"
+              deploy="https://budget-tracker-app2021.herokuapp.com/"
+              link="https://github.com/EdgarO93/BudgetTracker"
             />
           </Col>
 
@@ -77,9 +77,9 @@ export default function Portfolio() {
           <Col md={4}  className="project-card">
           <Project
               imgPath={employee}
-              title="Employee Tracker"
-              deploy="https://customer-service-dashboard.herokuapp.com/"
-              link="https://github.com/justinkemp10/customer_service_portal"
+              title= "Employee Tracker"
+              deploy="https://watch.screencastify.com/v/N5hVgUr3WzhNTuXzVu9T"
+              link="https://github.com/EdgarO93/Employee-Tracker"
             />
           </Col>
         </Row>
