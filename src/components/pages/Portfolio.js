@@ -15,7 +15,7 @@ import swept from "./swept.png";
 
 export default function Portfolio() {
   return (
-<Container  fluid className="project-section">
+<Container  fluid="true" className="project-section">
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple"> Works </strong>
