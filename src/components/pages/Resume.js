@@ -4,9 +4,8 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <p>
-        Resume Here
-      </p>
+      <a href= "src/components/pages/assets/Edgar-Ortega-Resume-2021.pdf" download> Download Resume Here </a>
+      
     </div>
   );
 }
