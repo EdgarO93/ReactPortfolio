@@ -53,7 +53,7 @@ export default function Portfolio() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" style={{marginTop: "10px"}}>
           <Project
               imgPath={note}
               title="Note Taker"
