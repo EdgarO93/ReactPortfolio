@@ -5,6 +5,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 //images
 import ticket from "./ticket.png";
+import budget from "./budget.png";
+import  employee from "./employee.png";
+import note from "./note.png";
+import workout from "./workout.png";
+import swept from "./swept.png";
 
 
 
@@ -30,7 +35,7 @@ export default function Portfolio() {
 
           <Col md={4}  className="project-card">
           <Project
-              imgPath={ticket}
+              imgPath={budget}
               title="Budget Tracker"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
@@ -39,7 +44,7 @@ export default function Portfolio() {
 
           <Col md={4}  className="project-card">
           <Project
-              imgPath={ticket}
+              imgPath={workout}
               title="Workout Tracker"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
@@ -48,7 +53,7 @@ export default function Portfolio() {
 
           <Col md={4} className="project-card">
           <Project
-              imgPath={ticket}
+              imgPath={note}
               title="Note Taker"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
@@ -57,7 +62,7 @@ export default function Portfolio() {
 
           <Col md={4}  className="project-card">
           <Project
-              imgPath={ticket}
+              imgPath={employee}
               title="Employee Tracker"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
@@ -66,7 +71,7 @@ export default function Portfolio() {
 
           <Col className="project-card">
           <Project
-              imgPath={ticket}
+              imgPath={swept}
               title="Swept Project"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
