@@ -31,7 +31,7 @@ export default function Portfolio() {
           <Col md={4}  className="project-card">
           <Project
               imgPath={ticket}
-              title="Ticket Stack Project"
+              title="Budget Tracker"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
             />
@@ -40,7 +40,7 @@ export default function Portfolio() {
           <Col md={4}  className="project-card">
           <Project
               imgPath={ticket}
-              title="Ticket Stack Project"
+              title="Workout Tracker"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
             />
@@ -49,7 +49,7 @@ export default function Portfolio() {
           <Col md={4} className="project-card">
           <Project
               imgPath={ticket}
-              title="Ticket Stack Project"
+              title="Note Taker"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
             />
@@ -58,7 +58,7 @@ export default function Portfolio() {
           <Col md={4}  className="project-card">
           <Project
               imgPath={ticket}
-              title="Ticket Stack Project"
+              title="Employee Tracker"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
             />
@@ -67,7 +67,7 @@ export default function Portfolio() {
           <Col className="project-card">
           <Project
               imgPath={ticket}
-              title="Ticket Stack Project"
+              title="Swept Project"
               deploy="https://customer-service-dashboard.herokuapp.com/"
               link="https://github.com/justinkemp10/customer_service_portal"
             />
