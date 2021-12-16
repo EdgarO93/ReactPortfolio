@@ -4,12 +4,12 @@ import'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col} from "react-bootstrap";
 
 //images
-import ticket from "./ticket.png";
-import budget from "./budget.png";
-import  employee from "./employee.png";
-import note from "./note.png";
-import workout from "./workout.png";
-import swept from "./swept.png";
+import ticket from "./assets/ticket.png";
+import budget from "./assets/budget.png";
+import  employee from "./assets/employee.png";
+import note from "./assets/note.png";
+import workout from "./assets/workout.png";
+import swept from "./assets/swept.png";
 
 
 
