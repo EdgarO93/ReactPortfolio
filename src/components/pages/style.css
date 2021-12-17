@@ -1,0 +1,48 @@
+
+body {background-color: #2d2d2d;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: sans-serif;
+}
+p {
+    font-size: 18px;
+  }
+  
+
+  h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: #ffffff;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffffff;
+  }
+
+  p{
+    color: #ffffff;
+  }
+
+  .btn:hover {
+    transform: translateY(-3px);
+  }
+.btn2{
+    background-color: white;
+
+}
+a.btn2{
+    color: black;
+}
+  .btn2:hover {
+    background-color:#2d2d2d;
+    transform: translateY(-3px);
+  }
