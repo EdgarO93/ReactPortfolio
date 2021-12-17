@@ -23,7 +23,7 @@ p {
   }
   
   h2 {
-    margin-bottom: 20px;
+    
     font-size: 36px;
     color: #ffffff;
   }
@@ -31,7 +31,15 @@ p {
   p{
     color: #ffffff;
   }
+  .project-card-view{
+    background-color: #cfdcdf;
 
+}
+
+.project-card-view:hover{
+  background-color: #60b4c9;
+
+}
   .btn:hover {
     transform: translateY(-3px);
   }
