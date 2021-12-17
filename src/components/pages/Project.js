@@ -9,10 +9,10 @@ function Project(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
     <ButtonGroup size="sm" >
-          <Button variant="primary" href={props.deploy} target="_blank">
+          <Button variant="primary" href={props.deploy} target="_blank" className='btn'>
           Launch
         </Button>
-        <Button variant="secondary" href={props.link} target="_blank">
+        <Button  href={props.link} target="_blank" className='btn2'>
        Github
         </Button>
         </ButtonGroup>
