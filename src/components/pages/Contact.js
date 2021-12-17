@@ -32,13 +32,23 @@ function Contact() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the Name is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !FullName) {
-      setErrorMessage("Email or username is invalid");
+    if (!validateEmail(email)) {
+      setErrorMessage("Email is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    alert(`Hello ${FullName}, thanks for submitting`);
+      // Then we check to see if the name is not valid.
+      if (!FullName) {
+        setErrorMessage("Name is required");
+       
+        return;
+    }
+    if (!Message) {
+      setErrorMessage("Message is required");
+     
+      return;
+  }
+    alert(`Hello ${FullName}, thanks for submitting!`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setFullName("");
