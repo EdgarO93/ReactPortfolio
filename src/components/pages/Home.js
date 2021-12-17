@@ -11,7 +11,7 @@ export default function Home() {
       Hi, my name is Edgar. I'm from Chicago. I graduated from American
             University. I hope to improve my diverse professional experience with new
             skills in web development. I am currently enrolled in the Northwestern
-            Bootcamp. I am excited to build new projects!
+            Bootcamp. I am excited to build new projects! This portfolio was built with React!
       </p>
     </div>
   );
