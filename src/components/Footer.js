@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,Row,Col} from 'react-bootstrap'
+import {Container,Row,Col, Nav} from 'react-bootstrap'
 import {
     AiFillGithub,
     AiOutlineTwitter,
@@ -9,11 +9,11 @@ import {
 
 export default function Footer(){
     return (
-      <Container fluid className="footer">
+      <Container fluid className="footer" style={{ display: "inline" }}>
         <Row>
           <Col md="4" className="footer-body">
-            <ul className="footer-icons">
-              <li className="social-icons">
+            <Nav fill className="justify-content-center" activeKey="/home">
+              <Nav.Item className="social-icons">
                 <a
                   href="#"
                   style={{ color: "teal" }}
@@ -22,8 +22,8 @@ export default function Footer(){
                 >
                   <AiFillGithub />
                 </a>
-              </li>
-              <li className="social-icons">
+              </Nav.Item>
+              <Nav.Item className="social-icons">
                 <a
                   href="#"
                   style={{ color: "teal" }}
@@ -32,8 +32,8 @@ export default function Footer(){
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
-              <li className="social-icons">
+              </Nav.Item>
+              <Nav.Item className="social-icons">
                 <a
                   href="#"
                   style={{ color: "teal" }}
@@ -42,8 +42,8 @@ export default function Footer(){
                 >
                   <AiFillLinkedin />
                 </a>
-              </li>
-              <li className="social-icons">
+              </Nav.Item>
+              <Nav.Item className="social-icons">
                 <a
                   href="#"
                   style={{ color: "teal" }}
@@ -52,8 +52,8 @@ export default function Footer(){
                 >
                   <   AiFillInstagram />
                 </a>
-              </li>
-            </ul>
+              </Nav.Item>
+            </Nav>
           </Col>
         </Row>
       </Container>
