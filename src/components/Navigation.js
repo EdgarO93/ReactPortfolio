@@ -1,14 +1,17 @@
 import React from 'react';
 import "./Navigation.css"
+import {Container} from "react-bootstrap";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <h2>
+    <Container fluid style={{ display: "flex" }}>
+       <h2>
           Edgar Ortega
         </h2>
+    <ul className="nav nav-tabs">
+      
       <li className="nav-item">
         <a
           href="#home"
@@ -50,7 +53,10 @@ function Navigation({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+  
+ 
     </ul>
+        </Container>
   );
 }
 
