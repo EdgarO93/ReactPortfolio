@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './style.css';
-
+import { Form, Button } from "react-bootstrap";
+import'bootstrap/dist/css/bootstrap.min.css';
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
@@ -58,40 +59,44 @@ function Contact() {
 
   return (
     <div>
-      <h1>Contact Page</h1>
+        <h1>Contact Page</h1>
       <h2>Hello {FullName}</h2>
-      <form className="form">
-        <input
-          value={FullName}
+  
+    <Form>
+         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+      <Form.Label style={{ color: "white" }} >Name </Form.Label>
+      <Form.Control   value={FullName}
           name="FullName"
           onChange={handleInputChange}
           type="text"
-          placeholder="Name"
-        />
-        <input
-          value={email}
+          placeholder="Edgar Ortega" />
+    </Form.Group>
+    <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
+      <Form.Label style={{ color: "white" }} >Email address</Form.Label>
+      <Form.Control   value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
-        />
-        <textarea
-          value={Message}
+          placeholder="edort93@gmail.com"/>
+    </Form.Group>
+    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+      <Form.Label style={{ color: "white" }} >Message</Form.Label>
+      <Form.Control   value={Message}
           name="message"
           onChange={handleInputChange}
           type="text"
-          placeholder="Message"
-        />
-        <button type="button" onClick={handleFormSubmit}>
+          placeholder="Message" as="textarea" size="lg" rows={3} />
+    </Form.Group>
+  </Form>
+  <Button type="button" onClick={handleFormSubmit} variant="outline-light">
           Submit
-        </button>
-      </form>
-      {errorMessage && (
+        </Button>
+        {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="error-text" >{errorMessage}</p>
         </div>
       )}
-    </div>
+      </div>
   );
 }
 export default Contact;
