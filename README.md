@@ -10,10 +10,20 @@ This portfolio is build with React and using design features such as Boostrap fr
 
 ## Screenshot
 ### Desktop view
-<!-- ![plot](Assets/Images/desktop.png) -->
+View of the Homepage
+![plot](src/components/pages/assets/medesk.png)
+
+View of the Portfolio
+![plot](src/components/pages/assets/reactdesktop.png)
 
 ### Mobile View
-<!-- ![plot](Assets/Images/mobile.png) -->
+View of the Homepage
+![plot](src/components/pages/assets/memobile.png)
+
+View of the Portfolio
+![plot](src/components/pages/assets/reactmobile.png)
+
+
 
 ## Contact Info
 You can contact me at edort93@gmail.com
