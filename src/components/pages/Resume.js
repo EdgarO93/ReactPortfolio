@@ -3,7 +3,7 @@ import {Container,Row,ListGroup,Card,Button} from 'react-bootstrap';
 
 export default function Resume() {
   return (
-    <Container  fluid="md">
+    <Container fluid>
       <Row>
       <h1>Resume</h1>
       </Row> 
