@@ -14,3 +14,11 @@ nav-tab:hover{
         
     }
 }
+
+@media (max-width: 768px){
+    #footnav{
+        display:flex ;
+        flex-direction: row;
+        
+    }
+}
