@@ -3,6 +3,10 @@ import './style.css';
 import { Form, Button } from "react-bootstrap";
 import'bootstrap/dist/css/bootstrap.min.css';
 import { validateEmail } from "../../utils/helpers";
+import {
+  AiTwotoneMail,
+  AiFillPhone
+} from "react-icons/ai";
 
 function Contact() {
   // Create state variables for the fields in the form
@@ -61,6 +65,12 @@ function Contact() {
     <div>
         <h1>Contact Page</h1>
       <h2>Hello {FullName}</h2>
+
+      <div>
+      <a className="footer-link" href="tel:7739054065"> Call Me <AiFillPhone size={20} className= "icon"/> </a> 
+    <a className="footer-link" href="mailto:edort93@gmail.com " target="_blank" rel="noreferrer">
+         Email Me <AiTwotoneMail size={20} className= "icon"/> </a>
+      </div>
   
     <Form>
          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
