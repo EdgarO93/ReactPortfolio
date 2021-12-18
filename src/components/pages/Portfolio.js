@@ -18,13 +18,13 @@ export default function Portfolio() {
 <Container  fluid="true" className="project-section">
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple"> Works </strong>
+          My Recent <strong> Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Row  style={{  paddingBottom: "10px" }}>
+          <Col  xxl xl md lg className="project-card">
             <Project
            imgPath={ticket} 
               title="Ticket Stack Project"
@@ -33,7 +33,7 @@ export default function Portfolio() {
             />
           </Col>
 
-          <Col className="project-card">
+          <Col xxl  xl md lg className="project-card">
           <Project
               imgPath={swept}
               title="Swept Project"
@@ -44,7 +44,7 @@ export default function Portfolio() {
 
          
 
-          <Col md={4}  className="project-card">
+          <Col xxl xl md lg className="project-card">
           <Project
               imgPath={workout}
               title="Workout Tracker"
@@ -52,8 +52,10 @@ export default function Portfolio() {
               link="https://github.com/EdgarO93/WorkoutTracker"
             />
           </Col>
+          </Row>
 
-          <Col md={4} className="project-card" style={{marginTop: "10px"}}>
+          <Row>
+          <Col xxl xl md lg className="project-card" style={{marginTop: "10px"}}>
           <Project
               imgPath={note}
               title="Note Taker"
@@ -64,7 +66,7 @@ export default function Portfolio() {
 
       
 
-          <Col md={4}  className="project-card" style={{marginTop: "10px"}}>
+          <Col xxl xl md lg className="project-card" style={{marginTop: "10px"}}>
           <Project  
               imgPath={budget}
               title="Budget Tracker"
@@ -74,7 +76,7 @@ export default function Portfolio() {
           </Col>
 
 
-          <Col md={4}  className="project-card" style={{marginTop: "10px"}}>
+          <Col  xxl xl md lg className="project-card" style={{marginTop: "10px"}}>
           <Project
               imgPath={employee}
               title= "Employee Tracker"
