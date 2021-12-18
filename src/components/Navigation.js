@@ -6,10 +6,10 @@ import {Container} from "react-bootstrap";
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <Container fluid style={{ display: "flex"}}>
-       <h2>
+    <Container fluid>
+       <h1 className="edgar">
           Edgar Ortega
-        </h2>
+        </h1>
     <ul className="nav nav-tabs">
       
       <li className="nav-item">

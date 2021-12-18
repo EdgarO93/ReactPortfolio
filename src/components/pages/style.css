@@ -31,6 +31,10 @@ p {
   p{
     color: #ffffff;
   }
+  .edgar{
+    font-size: 64px;
+    ;
+  }
   .project-card-view{
     background-color: #cfdcdf;
 
