@@ -6,7 +6,7 @@ import {Container} from "react-bootstrap";
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <Container fluid style={{ display: "flex" }}>
+    <Container fluid style={{ display: "flex"}}>
        <h2>
           Edgar Ortega
         </h2>

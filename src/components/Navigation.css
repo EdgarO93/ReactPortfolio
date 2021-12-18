@@ -2,3 +2,15 @@ nav-tab:hover{
     background-color: #ffff;
     
 }
+.nav{
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+@media (min-width: 768px){
+    .nav{
+        display:flex ;
+        flex-direction: column;
+        
+    }
+}
