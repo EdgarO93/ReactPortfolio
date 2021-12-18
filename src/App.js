@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => 
-    <div classname="flex-column justify-flex-start min-100-vh">
+    <div className="flex-column justify-flex-start min-100-vh">
         <Header />
     
 <Footer />
